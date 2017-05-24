@@ -1,0 +1,13 @@
+apply plugin: 'java-library'
+
+// In this section you declare where to find the dependencies of your project
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+    compile             'org.seleniumhq.selenium:selenium-java:3.4.0'
+    testImplementation  'junit:junit:4.12'
+}
+
