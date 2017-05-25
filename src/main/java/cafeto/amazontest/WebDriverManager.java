@@ -33,5 +33,6 @@ public class WebDriverManager {
             return;
 
         driver.quit();
+        driver = null;
     }
 }
